@@ -123,3 +123,32 @@ figure.diagram {
   }
 }
 
+.exampleCarousel1 div > button[data-direction='left'] {
+	background: url('https://cdn.dsmcdn.com/web/production/slick-arrow.svg') no-repeat
+		center;
+	transform: rotateZ(180deg);
+	outline: none;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	left: -16px;
+	height: 760px;
+  width: 1920;
+	top: 80px;
+}
+
+.exampleCarousel1 div > button[data-direction='right'] {
+	background: url('https://cdn.dsmcdn.com/web/production/slick-arrow.svg') no-repeat
+		center;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	right: -16px;
+	height: 80px;
+	top: 80px;
+}
+
+.exampleCarousel1 div:first-child {
+	text-align: center;
+}
